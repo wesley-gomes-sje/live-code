@@ -53,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Animacoes do nosso site https://gsap.com/ */
 /* imagem da mulher na home */
 gsap.from(".home__cover", 1.5, { opacity: 0, y: 10, delay: 0.1 });
-
 /* dados da home */
 gsap.from(".home__data", 1.8, { opacity: 0, x: -100, delay: 0.2 });
 
